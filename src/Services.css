@@ -1,18 +1,18 @@
-.services {
-  padding: 10px 0 0 0;
+.services-tabs {
+  padding: 8px 0 0 0;
   display: flex;
   align-content: row;
   justify-content: space-evenly;
   
 }
 
-.inactive-tab {
-  font-size: 16px;
+.tab-inactive {
+  font-size: 18px;
   background-color: #389463;
   border-radius: 5px;
 }
-.active-tab {
-  font-size: 16px;
+.tab-active {
+  font-size: 18px;
   background-color: lightgreen;
   border-top-right-radius: 5px;
   border-top-left-radius: 5px;
@@ -32,4 +32,8 @@
   display: flex;
   justify-content: space-evenly;
   font-size: 18px;
+}
+.service-div {
+  width: 70vw;
+  padding: 10px;
 }

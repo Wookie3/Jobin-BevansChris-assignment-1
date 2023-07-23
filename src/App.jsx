@@ -31,9 +31,6 @@ const NavBar = () => {
 const NavDropdown = () => {
   return (
     <ul class="dropdown">
-      {/* <span className="navbar-burger">
-      <BurgerIcon/>
-      </span> */}
       <img className="navbar-burger" src="https://www.nasa.gov/sites/all/themes/custom/nasatwo/images/menu.png">
       </img>
         <div class="dropdown-content">
@@ -45,8 +42,6 @@ const NavDropdown = () => {
 }
 
 const NavItem = ({text, link}) => {
-  // const [open, setOpen] = useState(false);
-//  onClick={() => setOpen(!open)}
   return (
     <li className= "nav-item">
     <a href={link} className="nav-button">{text}</a>
